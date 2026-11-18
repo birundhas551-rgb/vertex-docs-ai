@@ -1,29 +1,25 @@
-# Environment files and secrets
+# Environment and secrets
 .env
 .env.*
 !.env.example
-**/.env
-**/.env.*
 
-# Node dependencies
-node_modules/
-**/node_modules/
-
-# Python cache and virtual environments
+# Python
 __pycache__/
 **/__pycache__/
 *.py[cod]
 .venv/
+**/.venv/
 venv/
+**/venv/
 
-# Build files
+# Frontend dependencies and builds
+node_modules/
+**/node_modules/
 dist/
 build/
 
-# Local databases
+# Database and user uploads
 *.db
 *.sqlite
 *.sqlite3
-
-# User-uploaded files and private storage
 backend/storage/
